@@ -24,8 +24,9 @@ git clone https://github.com/redolivedev/react-native-starter.git [your project 
 
 Once the repo has cloned, we need to install node_modules and pods for iOS. Run the following commands:
 ```
-cd [your project name]/ios && pod install
-cd ../ && npm i
+cd [your project name] && npm i
+cd ios && pod install
+cd ../
 ```
 
 ## Run the Project and Start Developing
