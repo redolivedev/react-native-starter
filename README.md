@@ -19,7 +19,7 @@ Install Xcode through the App Store if we don't already have it.
 ## Clone the Repo & Install Dependencies
 Clone the repo by running:
 ```
-git clone [your project name]
+git clone https://github.com/redolivedev/react-native-starter.git [your project name]
 ```
 
 Once the repo has cloned, we need to install node_modules and pods for iOS. Run the following commands:
