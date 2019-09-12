@@ -33,7 +33,7 @@ react-native upgrade --legacy true
 ```
 If it asks to replace any files, just enter n for no.
 
-Now, you need to install node_modules and iOS pods. Run the following commands:
+Now you need to install iOS pods. Run the following commands:
 ```
 cd ios && pod install
 cd ../
