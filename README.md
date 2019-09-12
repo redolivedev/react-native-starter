@@ -28,13 +28,13 @@ Once the repo has cloned, you need to change the project name and install the an
 - Run the following commands:
 ```
 cd [your project name]
+npm i
 react-native upgrade --legacy true
 ```
 If it asks to replace any files, just enter n for no.
 
 Now, you need to install node_modules and iOS pods. Run the following commands:
 ```
-npm i
 cd ios && pod install
 cd ../
 ```
