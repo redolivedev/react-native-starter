@@ -22,11 +22,10 @@ Clone the repo by running:
 git clone https://github.com/redolivedev/react-native-starter.git [your project name]
 ```
 
-Once the repo has cloned, you need to change the project name and install the android & ios projects.
+Once the repo has cloned, you need to change the project name and install the android & ios projects. Do the following:
 - Open package.json and change the "name" property to your project name.
 - Open app.json and change both the "name" and "displayName" properties to your project name.
-
-Run the following commands:
+- Run the following commands:
 ```
 cd [your project name]
 react-native upgrade --legacy true
@@ -41,7 +40,7 @@ cd ../
 ```
 
 ## Run the Project and Start Developing
-We should be able to run the app now. Run the following command:
+You should be able to run the app now. Run the following command:
 ```
 react-native run-ios
 ```
